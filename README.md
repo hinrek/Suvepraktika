@@ -1,3 +1,3 @@
 ## Rules
-1. Fork and use pull requests!
+1. Use branches https://guides.github.com/introduction/flow/
 
