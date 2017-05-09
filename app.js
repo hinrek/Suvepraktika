@@ -8,11 +8,12 @@ const expressValidator = require('express-validator');
 const expressSession = require('express-session');
 const passport = require('passport');
 const configurePassport = require('./config/passport-jwt-config');
+
 const authController = require('./controllers/auth-controller');
 const userController = require('./controllers/user-controller');
 
-let index = require('./routes/index');
-let users = require('./routes/users');
+const index = require('./routes/index');
+const users = require('./routes/users');
 
 let app = express();
 
@@ -33,6 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(expressSession({secret: 'max', saveUninitialized: false, resave: false}));
 
 app.use('/', index);
+app.use('/', authController);
 app.use('/users', users);
 app.use('/auth', authController);
 app.use('/users', userController);

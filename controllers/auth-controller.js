@@ -22,7 +22,7 @@ router.post('/login', function(req, res) {
     })().catch(err => console.log(err));
 });
 
-router.post('/register', function(req, res) {
+router.post('/register', function(req, res, next) {
     const {username, password} = req.body;
     User.forge({username, password}).save()
         .then(user => res.json(user.omit('password')));
