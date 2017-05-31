@@ -1,0 +1,67 @@
+body{
+  background-color: #FFEECC;
+}
+
+#circle1{
+  width: 400px;
+	height: 400px;
+	background-color: #CCEEEE;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius:200px;
+  position: absolute;
+  bottom: 60px;
+  top: 160px;
+  right: 200px;
+  text-align: center;
+  transition: width 2s;
+}
+#circle2{
+	width: 400px;
+	height: 400px;
+	background-color: #CCEEEE;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius:200px;
+  position: absolute;
+  bottom: 60px;
+  top: 160px;
+  right: 550px;
+  text-align: center;
+  transition: width 2s;
+}
+
+#circle3{
+  width: 400px;
+	height: 400px;
+	background-color: #CCEEEE;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius:200px;
+  position: absolute;
+  bottom: 60px;
+  top: 160px;
+  left: 160px;
+  text-align: center;
+  transition: width 2s;
+}
+circle1,  circle2,  circle3:hover {
+    width: 500px;
+}
+#dropdown{
+  width: 200px;
+  height: 200px;
+  background-color: #FFBBEE;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color:#FFBBEE; left:0px; top:0px;}
+    25%  {background-color:#FFFFCC; left:1000px; top:0px;}
+    50%  {background-color:#CCFFFF; left:1000px; top:500px;}
+    75%  {background-color:#CCFFCC; left:0px; top:500px;}
+    100% {background-color:#FFBBEE; left:0px; top:0px;}
+}
