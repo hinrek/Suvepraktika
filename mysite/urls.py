@@ -6,7 +6,9 @@ from django.contrib.auth.views import (
    password_reset,
    password_reset_done,
    password_reset_confirm,
-   password_reset_complete
+   password_reset_complete,
+   password_change,
+   password_change_done
 )
 
 urlpatterns = [
@@ -14,6 +16,14 @@ urlpatterns = [
     url(r'^accounts/login/$', views.login, name='login'),
     url(r'^accounts/logout/$', views.logout, name='logout', kwargs={'next_page': '/'}),
     url(r'^accounts/', include('registration.backends.simple.urls')),
+    url(r'^accounts/password/change/$',
+        password_change, {
+        'template_name': 'registration/password_change_form.html'},
+        name='password_change'),
+    url(r'^accounts/password/change/done/$',
+        password_change_done,
+        {'template_name': 'registration/password_change_done.html'},
+        name='password_change_done'),
     url(r'^accounts/password/reset/$',
         password_reset,
         {'template_name':
