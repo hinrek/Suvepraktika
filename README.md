@@ -8,6 +8,11 @@
 - Kohustuslik koosolek kell 09.20
 - Iga liige täidab `./Blogi/sinu nimi/` kaustas iga päev blogi (mida tegi jne)
 
+## Leht on üleval: http://hinrek.pythonanywhere.com
+
+- Lehele pääsemiseks admin : Test1234
+- Superuser admin : Test1234
+
 ## Enne mitte torkida kui algusest lõpuni läbitud õpetused:
 
 - [Django Girls Tutorial](https://tutorial.djangogirls.org/en/)
