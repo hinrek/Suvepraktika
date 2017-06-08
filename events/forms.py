@@ -13,7 +13,8 @@ class EventForm(forms.ModelForm):
 
 
 class CommentForm(forms.ModelForm):
-
+    """ Form to create new events """
     class Meta:
         model = Comment
-        fields = ('author', 'text',)
+        # fields = ('author', 'text',)
+        fields = ('text',)

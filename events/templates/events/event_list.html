@@ -6,9 +6,12 @@
             <h2>Valdkond: {{ event.field }}</h2>
             <div class="date">
             <p>Toimumise aeg: {{ event.event_date }}</p>
+            <p>Loomise aeg: {{ event.created_date }}</p>
             </div>
-            <p>{{ event.descripton|linebreaksbr }}</p>
+            <p>Kirjeldus: {{ event.descripton|linebreaksbr }}</p>
             <p>Asukoht: {{ event.location }}</p>
+            <p>Kategooria: {{ event.field }}</p>
+            <p>Registreerimise tähtaeg: {{ event.register_limit_date }}</p>
             <a href="{% url 'event_detail' pk=event.pk %}">Comments: {{ event.comments.count }}</a>
         </div>
     {% endfor %}

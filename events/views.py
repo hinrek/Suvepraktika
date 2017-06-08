@@ -65,12 +65,14 @@ def event_remove(request, pk):
     return redirect('event_list')
 
 
+@login_required
 def add_comment_to_event(request, pk):
     post = get_object_or_404(Event, pk=pk)
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
             comment = form.save(commit=False)
+            comment.author = request.user
             comment.post = post
             comment.save()
             return redirect('event_detail', pk=post.pk)

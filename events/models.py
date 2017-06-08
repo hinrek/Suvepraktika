@@ -16,8 +16,10 @@ class Event(models.Model):
     created_date = models.DateTimeField(
         default=timezone.now)
     event_date = models.DateTimeField(
+        default=timezone.now,
         blank=True, null=True)
     register_limit_date = models.DateField(
+        default=timezone.now,
         blank=True, null=True)
 
     def publish(self):
@@ -31,7 +33,8 @@ class Event(models.Model):
 
 class Comment(models.Model):
     post = models.ForeignKey('events.Event', related_name='comments')
-    author = models.CharField(max_length=200)
+    # author = models.CharField(max_length=200)
+    author = models.ForeignKey('auth.User')
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     approved_comment = models.BooleanField(default=False)
