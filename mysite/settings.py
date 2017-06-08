@@ -131,3 +131,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 FORMAT_MODULE_PATH = [
     'mysite.formats',
 ]
+
