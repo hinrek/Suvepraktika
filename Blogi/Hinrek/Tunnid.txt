@@ -1,0 +1,17 @@
+08-05-2017 4h
+    Node.js backend toimib
+    mysql DB kasutaja registreerimine töötab localhostis
+    andmed liiguvad üle json web tokeni
+    Readme failis seletused ja kuidas kasutada ja mida õppida
+    Kliendiga suhtlemine
+
+20-05-2017 8h
+	Django backend
+	Kliendiga suhtlus
+
+21-05-2017 8h
+	Django backend arendus
+	Ürituste loomine
+	Ürituste kustutamine
+	Ürituste muutmine
+	Kasutajate haldus

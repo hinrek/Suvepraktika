@@ -1,5 +1,13 @@
 # SuvePraktika
 
+## Organisatoorne info
+
+### Kärol on second boss, kes vastutab kui Hinrek tööl!
+
+- Praktika algab kell 09.00 ruumis A406
+- Kohustuslik koosolek kell 09.20
+- Iga liige täidab `./Blogi/sinu nimi/` kaustas iga päev blogi (mida tegi jne)
+
 ## Enne mitte torkida kui algusest lõpuni läbitud õpetused:
 
 - [Django Girls Tutorial](https://tutorial.djangogirls.org/en/)
