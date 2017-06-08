@@ -1,0 +1,3 @@
+08.06.17
+Kasutajate registreerimine töötab
+Parooli taastamine natuke töötab

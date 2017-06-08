@@ -28,6 +28,9 @@
             <p class="top-menu">{{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
         {% else %}
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+            <li>
+    <a href="{% url 'registration_register' %}">Tee kasutaja</a>
+</li>
         {% endif %}
         <h1><a href="/">Elu - Mote</a></h1>
     </div>

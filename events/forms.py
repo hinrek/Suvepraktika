@@ -9,7 +9,7 @@ class EventForm(forms.ModelForm):
     class Meta:
         """ Tell Django which model should be used to create this form  """
         model = Event
-        fields = ('title', 'descripton',)
+        fields = ('title', 'descripton', 'location', 'field', 'event_date', 'register_limit_date')
 
 
 class CommentForm(forms.ModelForm):

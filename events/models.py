@@ -3,6 +3,7 @@ from django.db import models
 from django.utils import timezone
 
 
+
 class Event(models.Model):
     """ Event class """
     author = models.ForeignKey('auth.User')

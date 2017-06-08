@@ -1,0 +1,13 @@
+{% extends 'events/base.html' %}
+{% block title %}
+    Tee kasutaja - {{ block.super }}
+{% endblock title %}
+
+{% block content %}
+    <h1>Tee kasutaja</h1>
+    <form role="form" action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock content %}
