@@ -30,9 +30,9 @@
             <p class="top-menu"><small>(<a href="{% url 'registration_register' %}">Loo uus kasutaja</a>)</small></p>
         {% else %}
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
-            <li>
-                <br>
-</li>
+
+         <p class="top-menu"><small>(<a href="{% url 'registration_register' %}">Loo uus kasutaja</a>)</small></p>
+
         {% endif %}
         <h1><a href="/">Elu - Mote</a></h1>
     </div>
