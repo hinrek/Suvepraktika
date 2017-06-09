@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  background-image: url("background_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .login-title{
   font: 50px "Tahoma", Arial, Serif;
   padding-top: 10%;
@@ -6,7 +13,7 @@
   display: block;
 }
 
-
+font-family: 'Josefin Sans', sans-serif;
 
 .form-signin
 {
