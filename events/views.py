@@ -6,6 +6,7 @@ from .models import Event
 from .forms import EventForm, CommentForm
 
 
+
 def event_list(request):
     """ Renders all events in a list """
     events = Event.objects.filter()
