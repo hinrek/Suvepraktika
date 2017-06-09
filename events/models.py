@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 """ Model for events """
 from django.db import models
 from django.utils import timezone
@@ -12,7 +13,8 @@ class Event(models.Model):
         max_length=200)
     descripton = models.TextField()
     location = models.TextField()
-    category = models.ForeignKey('EventCategory')
+    category = models.ForeignKey(
+        'EventCategory', on_delete=models.PROTECT)
     created_date = models.DateTimeField(
         default=timezone.now)
     event_date = models.DateTimeField(
@@ -41,6 +43,7 @@ class Comment(models.Model):
     approved_comment = models.BooleanField(default=False)
 
     def approve(self):
+        """ Method for approving comments """
         self.approved_comment = True
         self.save()
 
