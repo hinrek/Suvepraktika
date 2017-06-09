@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+.button {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+
+.button:hover {
+  background-color: #F9EAF4;
+}
+
+/*   CIRCLE NR 1 */
+.circle_container_1 {
+  display: block;
+  width : 400px;
+  height : 400px;
+  top: 100px;
+  padding-top: 5%;
+  padding-left: 5%;
+  position: absolute;
+  left: 0px;
+  margin: auto;
+
+}
+
+/* Kuvab ringi */
+.circle_main_1 {
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 4px solid #ADD9FE;
+	margin : 0;
+	padding : 0;
+  top:200px;
+}
+
+/* Teeb ringi sisse ala teksti jaoks */
+.circle_text_container_1 {
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin : 0;
+	padding : 0;
+	position : relative;
+	left : 15%;
+	top : 15%;
+	transform-style : preserve-3d;
+}
+
+/* Kuvab ringi sisse tekti */
+.circle_text_1 {
+	font: 100px "Tahoma", Arial, Serif;
+	text-align : center;
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+  color: #F6CDE6;
+}
+
+/*  RING NR2*/
+.circle_container_2 {
+  display: block;
+	width : 400px;
+	height : 400px;
+	top: 100px;
+  padding-top: 5%;
+  position: relative;
+	margin: auto;
+}
+
+/* Kuvab ringi */
+.circle_main_2 {
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 4px solid #ADD9FE;
+	margin : 0;
+	padding : 0;
+  top:200px;
+  cursor: pointer;
+}
+
+/* Teeb ringi sisse ala teksti jaoks */
+.circle_text_container_2 {
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin : 0;
+	padding : 0;
+	position : relative;
+	left : 15%;
+	top : 15%;
+	transform-style : preserve-3d;
+}
+
+/* Kuvab ringi sisse tekti */
+.circle_text_2 {
+	font: 50px "Tahoma", Arial, Serif;
+	text-align : center;
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+  color: #F6CDE6;
+}
+
+/* RING NR3 */
+.circle_container_3 {
+  display: block;
+	width : 400px;
+	height : 400px;
+	top: 100px;
+  padding-top: 5%;
+  padding-right: 5%;
+  position: absolute;
+	right: 0px;
+	margin: auto;
+}
+
+/* Kuvab ringi */
+.circle_main_3 {
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 4px solid #ADD9FE;
+	margin : 0;
+	padding : 0;
+  top:200px;
+  cursor: pointer;
+}
+
+/* Teeb ringi sisse ala teksti jaoks */
+.circle_text_container_3 {
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin : 0;
+	padding : 0;
+	position : relative;
+	left : 15%;
+	top : 15%;
+	transform-style : preserve-3d;
+}
+
+/* Kuvab ringi sisse tekti */
+.circle_text_3 {
+	font: 50px "Tahoma", Arial, Serif;
+	text-align : center;
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+  color: #F6CDE6;
+}
+
+
+/* TEKSTIALA */
+
+.textarea{
+  padding-top: 10%;
+  margin-bottom: 10%;
+
+}
+.title{
+  font: 50px "Tahoma", Arial, Serif;
+  padding-left: 5%;
+  color: #74787B;
+}
+
+.paragraph{
+  font: 15px "Tahoma", Arial, Serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+  line-height: 30px;
+  color: #74787B;
+}
