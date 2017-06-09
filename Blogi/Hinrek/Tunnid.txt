@@ -21,3 +21,9 @@
 	Kommentaaride lisamien nõuab aktiivset Kasutajat
 	Kommentaaride lisamisel kasutaja võetakse andmebaasist
 	Kuupäev ja kellaeg formaat
+
+09-06-2017 4h
+	Tööjaotus githubis issudena
+	Serveris lehe värskendamine
+	Üritusele kategooria valimine
+	Ürituste kategooriate loomine admin vaates
