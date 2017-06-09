@@ -12,7 +12,7 @@ class Event(models.Model):
         max_length=200)
     descripton = models.TextField()
     location = models.TextField()
-    field = models.TextField()
+    category = models.ForeignKey('EventCategories')
     created_date = models.DateTimeField(
         default=timezone.now)
     event_date = models.DateTimeField(
@@ -32,6 +32,7 @@ class Event(models.Model):
 
 
 class Comment(models.Model):
+    """ Comment class for event comments """
     post = models.ForeignKey('events.Event', related_name='comments')
     # author = models.CharField(max_length=200)
     author = models.ForeignKey('auth.User')
@@ -45,3 +46,11 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.text
+
+
+class EventCategories(models.Model):
+    """ Category field class for event categories """
+    category = models.TextField()
+
+    def __str__(self):
+        return self.category

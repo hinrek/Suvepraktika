@@ -10,7 +10,7 @@
             </div>
             <p>Kirjeldus: {{ event.descripton|linebreaksbr }}</p>
             <p>Asukoht: {{ event.location }}</p>
-            <p>Kategooria: {{ event.field }}</p>
+            <p>Kategooria: {{ event.category }}</p>
             <p>Registreerimise tähtaeg: {{ event.register_limit_date }}</p>
             <a href="{% url 'event_detail' pk=event.pk %}">Comments: {{ event.comments.count }}</a>
         </div>
