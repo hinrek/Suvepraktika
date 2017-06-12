@@ -1,0 +1,4 @@
+Django==1.10.7
+django-location-field==2.0.3
+django-registration==2.2
+six==1.10.0
