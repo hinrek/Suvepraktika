@@ -185,6 +185,7 @@ body {
 .textarea{
   padding-top: 10%;
   margin-bottom: 10%;
+  margin-top: 10%;
 
 }
 .title{
@@ -213,4 +214,106 @@ body {
   padding-left: 5%;
   color: #ef9790;
   text-align: center;
+}
+
+header{
+  padding-top: 350px;
+  background-image: url("background_2.jpg");
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+.body{
+  background: #F6F6F6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10px 300px;
+}
+
+.dropdown, .dropdown-menu{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  left: 10%;
+
+}
+.dropdown_2{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  left: 25%;
+}
+
+.date_begin{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  left: 35%;
+}
+
+.date_end{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+}
+
+.search{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+}
+.search:hover {
+  background-color: #F9EAF4;
+}
+
+.col-half-offset{
+    margin-left:4.166666667%
 }

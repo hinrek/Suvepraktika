@@ -5,9 +5,72 @@
     <title>Vaata projekte</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1 class="projects_title">VAATA PROJEKTE</h1>
+  <body class="body">
+    <header>
+      <h1 class="projects_title"> VAATA PROJEKTE</h1>
+      <button class="button" onclick="window.location.href='login.html'">Logi sisse</button>
 
+    </header>
+    <div class="row">
+      <div class="col-xs-2">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Asukoht
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Harjumaa</a></li>
+            <li><a href="#">jne</a></li>
+            <li><a href="#">jne</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-2 col-half-offset">
+        <div class="dropdown_2">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Valdkond
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Koristus</a></li>
+              <li><a href="#">jne</a></li>
+              <li><a href="#">jne</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-xs-2 col-half-offset">
+      <form>
+      <input class="date_begin" type="date" name="date_begin" max="2017-01-01" placeholder="Algus">
+      </form>
+    </div>
+    <div class="col-xs-2 col-half-offset">
+      <form>
+      <input class="date_end" type="date" name="date_end" min="2020-01-01" placeholder="Lõpp">
+      </form>
+    </div>
+    <div class="col-xs-2 col-half-offset">
+
+    <input class="search_btn" type="search" placeholder="Otsi">
+    <input class="search" type="submit">
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <img src="css/ring_1.png" alt="picture" height="300" width="300">
+      Projekti lühikirjeldus
+    </div>
+
+    <div class="col-md-4">
+      <img src="css/ring_1.png" alt="picture" height="300" width="300">
+      Projekti lühikirjeldus
+    </div>
+
+    <div class="col-md-4">
+      <img src="css/ring_1.png" alt="picture" height="300" width="300">
+      Projekti lühikirjeldus
+    </div>
+  </div>
   </body>
 </html>
