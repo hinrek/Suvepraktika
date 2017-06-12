@@ -13,7 +13,7 @@ class Event(models.Model):
     title = models.CharField(
         max_length=200)
     descripton = models.TextField()
-    city = models.CharField(max_length=255, default='Tallinn')
+    city = models.CharField(max_length=255, default="")
     location = PlainLocationField(based_fields=['city'], zoom=150)
     category = models.ForeignKey(
         'EventCategory', on_delete=models.PROTECT, default='Sport')
