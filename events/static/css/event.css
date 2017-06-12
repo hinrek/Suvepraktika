@@ -1,21 +1,16 @@
 .page-header {
-    background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #333;
     font-size: 36pt;
     text-decoration: none;
-}
-
-.content {
-    margin-left: 40px;
+    padding-left: 5%;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .date {
@@ -47,4 +42,44 @@ h1, h2, h3, h4 {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+.button {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+
+.button:hover {
+  background-color: #F9EAF4;
+}
+
+.button_2 {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #F6CDE6;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+
+.button_2:hover {
+  background-color: #F9EAF4;
 }
