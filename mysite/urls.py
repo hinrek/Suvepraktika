@@ -12,6 +12,7 @@ from django.contrib.auth.views import (
 )
 
 urlpatterns = [
+    url(r'', include('events.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/login/$', views.login, name='login'),
     url(r'^accounts/logout/$', views.logout, name='logout', kwargs={'next_page': '/'}),
@@ -44,5 +45,4 @@ urlpatterns = [
         {'template_name':
              'registration/password_reset_complete.html'},
         name="password_reset_complete"),
-    url(r'', include('events.urls')),
 ]

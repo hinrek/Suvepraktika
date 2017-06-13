@@ -27,7 +27,6 @@
 
         <link rel="stylesheet" href="{% static 'css/login.css' %}">
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" >
           $(document).ready(function(){
               $("#id_username").attr('placeholder', 'Kasutajatunnus');
@@ -41,7 +40,7 @@
   <div class="page-header">
       {% if user.is_authenticated %}
           <button class="button"><small><a href="{% url 'event_new' %}">Loo projekt</a></small></button>
-          <button class="button"><small><a href="{% url 'profile' %}">Profiil</a></small></button>
+         {% comment %} <button class="button"><small><a href="{% url 'profile' %}">Profiil</a></small></button> {% endcomment %}
           <button class="button">{{ user.username }} <small><a href="{% url 'logout' %}">Logi välja</a></small></button>
       {% else %}
          <button class="button"><small><a href="{% url 'login' %}">Logi sisse</a></small></button>

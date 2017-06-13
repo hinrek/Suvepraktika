@@ -13,7 +13,7 @@ def index(request):
 
 def event_add(request):
     """ Add new event """
-    return render(request, 'events/event_add.html')    
+    return render(request, 'events/event_add.html')
 
 
 def event_list(request):
