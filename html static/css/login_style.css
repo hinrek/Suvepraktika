@@ -6,7 +6,8 @@ body {
 }
 
 .login-title{
-  font: 50px "Tahoma", Arial, Serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
   padding-top: 10%;
   text-decoration-color: #F6CDE6;
   text-align: center;

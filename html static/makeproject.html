@@ -12,8 +12,49 @@
   </head>
   <body class="body">
     <header>
-      <h1 class="create_project_title">LOO PROJEKT</h1>
+      <h1 class="projects_title">LOO PROJEKT</h1>
       <button class="button" onclick="window.location.href='login.html'">Logi sisse</button>
     </header>
+    <div class="row">
+        <div class="col-sm-4">
+          <form class="form-signin">
+          <input type="text" class="form-control" placeholder="Projekti nimi" required autofocus><br>
+          <textarea rows="4" cols="20" type="text" class="form-control" placeholder="Projekti  lühikirjeldus" required autofocus></textarea><br>
+          <textarea rows="4" cols="50" type="text" class="form-control" placeholder="Projekti sisu" required autofocus></textarea><br>
+        </div>
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="col-sm-2">
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Asukoht
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Harjumaa</a></li>
+                    <li><a href="#">jne</a></li>
+                    <li><a href="#">jne</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="dropdown_2">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Valdkond
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Koristus</a></li>
+                      <li><a href="#">jne</a></li>
+                      <li><a href="#">jne</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <input class="date_begin" type="date" name="date_begin" max="2017-01-01" placeholder="Algus">
+                </div>
+                <div class="col-sm-2">
+                  <input class="date_end" type="date" name="date_end" max="2020-01-01" placeholder="Lõpp">
+                </div>
+
+                  <button class="btn btn-sm  btn-block" type="submit">Loo projekt</button>
+        </div>
+      </div>
   </body>
 </html>
