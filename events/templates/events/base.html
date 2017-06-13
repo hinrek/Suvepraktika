@@ -27,6 +27,14 @@
 
         <link rel="stylesheet" href="{% static 'css/login.css' %}">
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" >
+          $(document).ready(function(){
+              $("#id_username").attr('placeholder', 'Kasutajatunnus');
+              $("#id_password").attr('placeholder', 'Parool');
+          });
+        </script>
+
         <title>Elu - Mote</title>
     </head>
 <body>
@@ -37,7 +45,8 @@
           <button class="button">{{ user.username }} <small><a href="{% url 'logout' %}">Logi välja</a></small></button>
       {% else %}
          <button class="button"><small><a href="{% url 'login' %}">Logi sisse</a></small></button>
-         
+         <button class="button_2"><small><a href="{% url 'registration_register' %}">Loo kasutaja</a></small></button>
+
       {% endif %}
       <h1><a href="/">Elu - Mote</a></h1>
   </div>
