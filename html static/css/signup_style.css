@@ -9,10 +9,11 @@ header{
 }
 .signup-title{
   padding: 10%;
-  background-image: url("ring_1.png");
-  background-size: 20%;
+  background-image: url("ring_ok.png");
+  background-size: 35%;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 .form-signin{
     max-width: 330px;
