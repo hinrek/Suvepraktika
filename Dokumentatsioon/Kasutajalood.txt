@@ -1,0 +1,12 @@
+Kasutajalugu number 1.
+
+Veebirakendust kasutab inimene, kes tahab osa võtta projektidest. Ta leiab avalehelt kohe
+suunava lingi "Vaata projekte". Sellele klikates jõuab ta lehele,  kust saab kiire ülevaate
+kõikidest aktiivsetest projektidest. Leides huvitava projekti, saab ta selle kohta rohkem
+infot sellele projektile klikates. Kui kasutaja soovib selle projektiga liituda, peab ta olema
+sisse logitud. Seda saab ta teha rakenduse paremal üleval nurgas oleva nupu kaudu. Olles sisse
+logitud kasutajatunnuse ja parooliga juhatatakse ta tagasi projektide vaatamise lehele. Seejärel
+saab ta vajutada "Liitu projektiga" nupule. Sisse logitud olekus näeb ta veel, kes on projektiga
+liitunud. Juhul, kui projektiga liituda soovinud inimesel pole kasutajat, tuleb see luua.
+Seda saab teha vajutades lehe paremal nurgas olevale nupule, millega suunatakse ta registreerimis-
+lehele. Seal peab ta endale mõtlema kasutustunnuse, sisestama emaili ja parooli kaks korda.
