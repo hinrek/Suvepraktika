@@ -4,11 +4,10 @@
     {% if form.errors %}
         <p>Vale kasutaja või parool. Proovi uuesti!</p>
     {% endif %}
-
     <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
     <h1 class="login-title">MÕTE</h1>
-
+<!--
     <div class="container">
       <div class="row">
           <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -24,25 +23,26 @@
           </div>
       </div>
   </div>
+  -->
 
-        <table>
-        <tr>
-            <td>{{ form.username.label_tag }}</td>
-            <td>{{ form.username }}</td>
-        </tr>
-        <tr>
-            <td>{{ form.password.label_tag }}</td>
-            <td>{{ form.password }}</td>
-        </tr>
-        </table>
-         <p>
-        <a href="{% url 'password_reset' %}">
-            Unustasid parooli?
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+          {{ form.username }}
+          {{ form.password }}
+          <input class="btn btn-sm" type="submit" value="login"/>
 
-    </p>
-
-        <input type="submit" value="login" />
-        <input type="hidden" name="next" value="{{ next }}" />
+          <button class="btn btn-sm" type="submit" value="login">Logi sisse</button>
+          <input type="hidden" name="next" value="{{ next }}" />
+          <p>
+          <a href="{% url 'password_reset' %}">Unustasid parooli?
+          </p>
+          <p>
+          <a href="{% url 'registration_register' %}">Pole veel kasutajat? Loo kasutaja
+          </p>
+          </div>
+      </div>
+  </div>
 
     </form>
 {% endblock %}

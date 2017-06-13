@@ -52,11 +52,11 @@ h1, h2, h3, h4 {
   color: #74787B;
   display: inline-block;
   font-size: 12px;
-  border-radius: 15px;
+  border-radius: 5px;
   border: 2px solid #F6CDE6;
   cursor: pointer;
   position: absolute;
-  right: 5%;
+  right: 15%;
   top: 2%;
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4 {
   color: #74787B;
   display: inline-block;
   font-size: 12px;
-  border-radius: 15px;
+  border-radius: 5px;
   border: 2px solid #F6CDE6;
   cursor: pointer;
   position: absolute;
