@@ -2,6 +2,7 @@
 """ Model for events """
 from django.db import models
 from django.utils import timezone
+from location_field.models.plain import PlainLocationField
 
 
 
@@ -12,9 +13,10 @@ class Event(models.Model):
     title = models.CharField(
         max_length=200)
     descripton = models.TextField()
-    location = models.TextField()
+    city = models.CharField(max_length=255, default="")
+    location = PlainLocationField(based_fields=['city'], zoom=150)
     category = models.ForeignKey(
-        'EventCategory', on_delete=models.PROTECT)
+        'EventCategory', on_delete=models.PROTECT, default='Sport')
     created_date = models.DateTimeField(
         default=timezone.now)
     event_date = models.DateTimeField(
@@ -49,7 +51,6 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.text
-
 
 class EventCategory(models.Model):
     """ Category field class for event categories """

@@ -3,8 +3,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .models import Event
-from .forms import EventForm, CommentForm
-
+from .forms import EventForm, CommentForm, MapForm
 
 def index(request):
     """ Home page """
@@ -27,7 +26,8 @@ def event_detail(request, pk):
     """ Redners event details  """
     event = get_object_or_404(Event, pk=pk)
 
-    return render(request, 'events/event_detail.html', {'event': event})
+    form = MapForm
+    return render(request, 'events/event_detail.html', {'event': event, 'form': form})
 
 
 @login_required
