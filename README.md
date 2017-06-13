@@ -42,7 +42,7 @@ Hetkel arenduse faasis on meil endal hea lihtne kasutada db.sqlite3 baasi, mis s
 - Peale keskkonna loomist peaks selle aktiveerima, et kõik mida paigaldame tehakse myvenv keskkonda. Erinevatel op süsteemidel käsk veits erinev jälle windoosas `myvenv\Scripts\activate` unix laadses `source myvenv/bin/activate`
 - Uuendage pip `pip install --upgrade pip`
 - Paigaldage Django `pip install django~=1.10.0`
-- Paigaldame django-registration mooduli `pip install django-registration`
+- Paigaldame vajalikud moodulid `pip install -r requirements.txt`
 - Loome andmebaasi `python manage.py migrate`
 - Loome admin õigustes kasutaja `python manage.py createsuperuser`
 

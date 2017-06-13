@@ -1,3 +1,14 @@
 8.06.2017
 
 Tegin vajalikud staatilised html  lehed valmis. Panin elemente paika.
+
+12.06.2017
+
+Arendasin edasi staatilisi html lehti. (html/css). Paar vaadet on täiesti valmis,
+mõned veel poolikud ja veidi katki. Homse ja hiljemalt ülehomsega peaks need ka valmis saama.
+
+
+13.06.2017
+
+Tegin staatilised html lehed valmis. Tegin photoshopis uue pildi, mida kasutada mõndadel lehtedel
+(eelmine ei olnud vabavara). Hakkasin kasutuslugusid kirjutama.

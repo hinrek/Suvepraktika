@@ -1,8 +1,6 @@
 """ Django forms """
 from django import forms
-
 from .models import Event, Comment
-
 
 
 class MapForm(forms.ModelForm):
@@ -10,6 +8,7 @@ class MapForm(forms.ModelForm):
         model = Event
         fields =('city', 'location')
 
+        
 class EventForm(forms.ModelForm):
     """ Form to create new events """
     class Meta:

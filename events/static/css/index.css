@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-image: url("../images/background_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.flexible{
+  display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+
+/*   CIRCLE NR 1 */
+.circle_container_1 {
+  display: block;
+  width : 350px;
+  height : 350px;
+  top: 35%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%
+  position: absolute;
+  margin-top: 20%;
+}
+
+
+/*  CIRCLE NR2*/
+.circle_container_2 {
+  display: block;
+	width : 350px;
+	height : 350px;
+	top: 35%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%
+  position: absolute;
+  margin-top: 20%;
+}
+
+
+/* CIRCLE NR3 */
+.circle_container_3 {
+  display: block;
+	width : 350px;
+	height : 350px;
+	top: 35%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%
+  position: absolute;
+  margin-top: 20%;
+}
+
+
+/* Displays circles */
+.circle_main_1, .circle_main_2, .circle_main_3{
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 4px solid #ADD9FE;
+	margin : 0;
+	padding : 0;
+  top:35%;
+}
+
+
+/* Makes area for text inside the circles */
+.circle_text_container_1, .circle_text_container_2, .circle_text_container_3 {
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin : 0;
+	padding : 0;
+	position : relative;
+	left : 15%;
+	top : 15%;
+	transform-style : preserve-3d;
+}
+
+
+/* Displays text */
+.circle_text_1, .circle_text_2, .circle_text_3 {
+	text-align : center;
+	position : relative;
+  font-size: 250%;
+	top : 50%;
+	transform : translateY(-50%);
+  color: #ef9790;
+  text-shadow: 2px 2px #FFD5D1;
+}
+
+
+/* TEXTAREA */
+.textarea{
+  padding-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+
+.title{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ef9790;
+}
+
+
+.paragraph{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: justify;
+  line-height: 30px;
+  color: #2F4F4F;
+}
+
+
+.projects_title{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ef9790;
+  text-align: center;
+}
+
+
+.create_project_title{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ef9790;
+  text-align: center;
+}

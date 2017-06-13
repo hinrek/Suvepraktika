@@ -27,3 +27,8 @@
 	Serveris lehe värskendamine
 	Üritusele kategooria valimine
 	Ürituste kategooriate loomine admin vaates
+
+12-06-2017 4h
+	Tööjaotus githubis issudena
+	requirements.txt kiireks moodulite paigaldamiseks ja juhised selleks readme.md failis
+	Aitasin Jüril ja Kärolil keskkonnad ja serverid tööle

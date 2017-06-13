@@ -15,37 +15,54 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         <!-- Font -->
-        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
 
         <!-- Static files -->
         <link rel="stylesheet" href="{% static 'css/event.css' %}">
 
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+        <script type="text/javascript" >
+            $(document).ready(function(){
+                $("#id_username").attr('placeholder', 'Kasutajatunnus');
+                $("#id_password").attr('placeholder', 'Parool');
+                $("#id_password1").attr('placeholder', 'Parool');
+                $("#id_password2").attr('placeholder', 'Korda parooli');
+                $("#id_email").attr('placeholder', 'Meiliaadress');
+                $("#id_password").attr('placeholder', 'Parool');
+
+            });
+            $('#circle_container_2').click(function () {
+                window.location = '{% url 'event_list' %}';
+            });
+        </script>
+
         <title>Elu - Mote</title>
     </head>
 <body>
-    <div class="page-header">
-        {% if user.is_authenticated %}
-            <a href="{% url 'event_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            <p class="top-menu">{{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
-            <p class="top-menu"><small>(<a href="{% url 'password_change' %}">Muuda parooli</a>)</small></p>
-            <p class="top-menu"><small>(<a href="{% url 'registration_register' %}">Loo uus kasutaja</a>)</small></p>
-        {% else %}
-            <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+  <div class="page-header">
+      {% if user.is_authenticated %}
+          <button class="button"><small><a href="{% url 'event_new' %}">Loo projekt</a></small></button>
+         {% comment %} <button class="button"><small><a href="{% url 'profile' %}">Profiil</a></small></button> {% endcomment %}
+          <button class="button">{{ user.username }} <small><a href="{% url 'logout' %}">Logi välja</a></small></button>
+      {% else %}
+         <button class="button"><small><a href="{% url 'login' %}">Logi sisse</a></small></button>
+         <button class="button_2"><small><a href="{% url 'registration_register' %}">Loo kasutaja</a></small></button>
 
-         <p class="top-menu"><small>(<a href="{% url 'registration_register' %}">Loo uus kasutaja</a>)</small></p>
-
-        {% endif %}
-        <h1><a href="/">Elu - Mote</a></h1>
-    </div>
+      {% endif %}
+      <h1><a href="/">Elu - Mote</a></h1>
+  </div>
 
     <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
             {% block content %}
             {% endblock %}
-            </div>
-        </div>
     </div>
 </body>
 </html>

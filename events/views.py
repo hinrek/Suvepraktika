@@ -5,6 +5,16 @@ from django.utils import timezone
 from .models import Event
 from .forms import EventForm, CommentForm, MapForm
 
+def index(request):
+    """ Home page """
+    return render(request, 'events/index.html')
+
+
+def event_add(request):
+    """ Add new event """
+    return render(request, 'events/event_add.html')
+
+
 def event_list(request):
     """ Renders all events in a list """
     events = Event.objects.filter()
