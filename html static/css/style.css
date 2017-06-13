@@ -5,13 +5,6 @@ body {
   background-size: cover;
 }
 
-
-.flexible{
-  display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	align-content: center;
-}
 .button {
   font-family: 'Josefin Sans', sans-serif;
   background-color: #FFFFFF;
@@ -120,16 +113,6 @@ body {
 	transform-style : preserve-3d;
 }
 
-/* Kuvab ringi sisse tekti
-.circle_text_2 {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align : center;
-	position : relative;
-	top : 50%;
-	transform : translateY(-50%);
-  color: #F6CDE6;
-}*/
-
 /* RING NR3 */
 .circle_container_3 {
   display: block;
@@ -142,44 +125,6 @@ body {
 	right: 0px;
 	margin: auto;
 }
-
-/* Kuvab ringi
-.circle_main_3 {
-	width : 100%;
-	height : 100%;
-	border-radius : 50%;
-	border : 4px solid #ADD9FE;
-	margin : 0;
-	padding : 0;
-  top:200px;
-  cursor: pointer;
-}*/
-
-/* Teeb ringi sisse ala teksti jaoks */
-.circle_text_container_3 {
-	width : 70%;
-	height : 70%;
-	max-width : 70%;
-	max-height : 70%;
-	margin : 0;
-	padding : 0;
-	position : relative;
-	left : 15%;
-	top : 15%;
-	transform-style : preserve-3d;
-}
-
-/* Kuvab ringi sisse tekti
-.circle_text_3 {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align : center;
-	position : relative;
-	top : 50%;
-	transform : translateY(-50%);
-  color: #F6CDE6;
-}*/
-
-
 /* TEKSTIALA */
 
 .textarea{
@@ -208,16 +153,12 @@ body {
   padding-left: 5%;
   color: #ef9790;
   text-align: center;
-}
-.create_project_title{
-  font-family: 'Josefin Sans', sans-serif;
-  padding-left: 5%;
-  color: #ef9790;
-  text-align: center;
+  position: relative;
+  top: -50px;
 }
 
 header{
-  padding-top: 350px;
+  padding: 150px;
   background-image: url("background_2.jpg");
   background-size: cover;
   background-position: top;
@@ -316,4 +257,26 @@ header{
 
 .col-half-offset{
     margin-left:4.166666667%
+}
+
+.create_project_title{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10%;
+  background-image: url("ring_1.png");
+  background-size: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile_name{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: #ef9790;
+  padding-top: 10%;
+  text-decoration-color: #F6CDE6;
+  text-align: center;
+  display: block;
+}
+.row{
+  margin-top: 30px;
 }
