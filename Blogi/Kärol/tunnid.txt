@@ -1,0 +1,18 @@
+08-06-2017
+Töö tunnid: 8h
+Avalehekülje jaoks HTML-i ja CSS kirjutamine
+Sisselogimis lehekülje HTML-i ja CSS alustamine
+Hetkel veel probleeme taustapildiga ning kolme ringi elemendi paigutusega ekraani suuruse muutumisel
+09.06.17 pean lahkuma varem
+
+09-06-2017
+Töö tunnid: 5h
+Login ja Signup lk tegemine
+Templatide muutmine vastavalt kujundusele (base.html)
+Õppisin djangot
+
+12-06-2017
+Töö tunnid: 6h
+Django installimine ja serveri tööle panemine Hinreku abiga
+Templatide muutmine vastavalt kujundusele(base.html, index.html, registration_form.html)
+css muutmine, kompaktsemaks tegemine

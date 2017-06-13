@@ -1,0 +1,6 @@
+08.06.17
+Tegelesin CSS-iga parandasin kujundust ja CSS-i.
+09.06.17
+-
+12.06.17
+Tegelesin eventidele joinimisega ja unjoinimisega.
