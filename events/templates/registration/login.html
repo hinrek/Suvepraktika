@@ -1,7 +1,7 @@
-{% extends "events/base.html" %} 
-{% block content %} 
+{% extends "events/base.html" %}
+{% block content %}
 {% if form.errors %}
-    <p>Vale kasutaja või parool. Proovi uuesti!</p>
+    <p align="center"><b>Vale kasutaja või parool. Proovi uuesti!</b></p>
 {% endif %}
 <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-4 col-md-offset-4">
-                {{ form.username }} 
+                {{ form.username }}
                 {{ form.password }}
                 <input class="btn btn-sm" type="submit" value="login" />
                 <input type="hidden" name="next" value="{{ next }}" />

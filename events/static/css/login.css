@@ -6,7 +6,13 @@
   margin-bottom: 5%;
 }
 
-font-family: 'Josefin Sans', sans-serif;
+.signup-picture{
+  padding: 15%;
+  background-image: url("../images/ring_1.png");
+  background-size: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .form-signin {
   display: block;
@@ -86,6 +92,34 @@ font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 5%;
 }
 
+.button3{
+  padding: 7px 10px;
+  margin-bottom: 0;
+  left:25%;
+}
+
+.button4{
+  padding: 8px 10px;
+  margin-bottom: 0;
+  left: 50%;
+}
+
+.button5{
+  margin-bottom: 0;
+}
+
+.button6{
+  padding: 8px 10px;
+    margin-bottom: 0;
+  left: 50%;
+}
+
+.button7{
+  padding: 8px 10px;
+  margin-bottom: 0;
+  left:25%;
+}
+
 .new-account {
     display: block;
     margin-top: 10px;
@@ -95,47 +129,7 @@ font-family: 'Josefin Sans', sans-serif;
   border-bottom: none;
 }
 
-#id_username {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  margin-bottom: 5%;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-#id_password {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  margin-bottom: 5%;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-#id_email {
+#id_username, #id_password, #id_email {
   display: block;
   width: 100%;
   height: 34px;

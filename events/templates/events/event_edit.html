@@ -1,9 +1,16 @@
 {% extends 'events/base.html' %}
 
 {% block content %}
-    <h1>Uus yritus</h1>
-    <form method="POST" class="post-form">{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
-    </form>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+          <h1 class="projects_title" align="center">LOO PROJEKT</h1>
+            <form method="POST" class="post-form">{% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-default">Salvesta</button>
+            </form>
+        </div>
+    </div>
+</div>
 {% endblock %}

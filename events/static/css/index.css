@@ -13,7 +13,10 @@ body {
 	align-content: center;
 }
 
-
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 /*   CIRCLE NR 1 */
 .circle_container_1 {
   display: block;
