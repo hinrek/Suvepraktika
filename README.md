@@ -1,5 +1,35 @@
 # ELU - Mõte
 
+## Eesmärk ja lühikirjeldus
+
+### Elu - Mõte projekt on veebirakendus, mis võimaldab luua üritusi ja neid hallata.
+
+- Üritused
+  - Loomine, kustutamine ja muutmine
+  - Üritustele kommentaaride lisamine
+- Kasutajad
+  - Kasutajate lisamine, kustutamine ja muutmine
+- Ürituse kategooriad
+  - Kategooriate lisamine, muutmine ja kustutamine
+
+## Kasutatud tehnoloogiad
+
+- Python3
+- Django 1.10.7
+- Lisa moodulid [requirements.txt](requirements.txt)
+
+## Projekti panustavad
+
+- Hinrek Saar
+- Jan Treiberg
+- Kärol-Milaine Jürgenson
+- Brigitta Kannel
+- Jüri Johannes Derkun
+
+## Litsents
+
+MIT [LICENSE](LICENSE)
+
 ## Organisatoorne info
 
 ### Kärol on second boss, kes vastutab kui Hinrek tööl!
@@ -8,7 +38,7 @@
 - Kohustuslik koosolek kell 09.20
 - Iga liige täidab `./Blogi/sinu nimi/` kaustas iga päev blogi (mida tegi jne)
 
-## Leht on üleval: http://hinrek.pythonanywhere.com
+## Leht on testimiseks üleval: http://hinrek.pythonanywhere.com
 
 - Lehele pääsemiseks admin : Test1234
 - Superuser admin : Test1234
@@ -30,7 +60,7 @@ Hetkel arenduse faasis on meil endal hea lihtne kasutada db.sqlite3 baasi, mis s
 
 ### Koodi kontrollimiseks headele tavadele vastavust, kasutada "flake8" ja "pylint" *lintereid*
 
-## Keskkonna paigaldamine ja käivitamine oma arvutis
+## Projekti paigaldamine ja käivitamine
 
 - Veenduge et arvutisse on paigaldatud python3
 - Enne käivitamist peab tekitama virtuaalse python3 keskkonna, mida rakendus hakkab kasutama. Käsk mis loob vastava keskkonna unixis `python3 -m venv myvenv` ja windoosa all võiks see midagi sellist välja näha `C:\Python35\python -m venv myvenv` võib ka kasutada virtualenv ehk `pip install virtualenv` ja siis peale seda `virtualenv myvenv`. Sisuliselt ei pea kasutama virtuaalselt keskkonda aga seda vähem pudru pärast arvutis.
@@ -44,4 +74,5 @@ Hetkel arenduse faasis on meil endal hea lihtne kasutada db.sqlite3 baasi, mis s
 ### Eelnevaid samme peab tegema vaid esmasel paigaldusel ja keskkonna uuendamisel
 
 - Käivita projekt `python manage.py runserver`
+- Veenduge, et /admin lehel oleks "Event categorys" all olemas mõni kategooria enne uue ürituse loomist
   - Enne projekti käivitamist veenduge et olete aktiveerinud virtuaalse keskkonna (juhul kui kasutate mõnda)
