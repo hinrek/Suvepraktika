@@ -11,6 +11,8 @@
   - Kasutajate lisamine, kustutamine ja muutmine
 - Ürituse kategooriad
   - Kategooriate lisamine, muutmine ja kustutamine
+- Administratiivne liides /admin
+  - Ürituste, ürituse kategooriate ja kasutajate haldus
 
 ## Kasutatud tehnoloogiad
 
