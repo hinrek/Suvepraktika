@@ -33,7 +33,6 @@
   </div>
         <div class="event">
             <h1><a href="{% url 'event_detail' pk=event.pk %}">{{ event.title }}</a></h1>
-            <h2>Valdkond: {{ event.field }}</h2>
             <div class="date">
             <p>Toimumise aeg: {{ event.event_date }}</p>
             <p>Loomise aeg: {{ event.created_date }}</p>

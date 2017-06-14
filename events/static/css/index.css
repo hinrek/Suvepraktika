@@ -17,7 +17,7 @@ body{
   padding-right: 0px;
 }
 
-/*   CIRCLE NR 1,2,3 */
+/*   Circle nr 1,2,3 */
 .circle_container_1, .circle_container_2, .circle_container_3{
   display: block;
   width : 350px;
@@ -29,6 +29,25 @@ body{
   padding-left: 5%
   position: absolute;
   margin-top: 20%;
+}
+
+/* Circle hover text */
+#circle_text_container_1 > #text1 {
+  display: none;
+}
+
+#circle_text_container_1:hover > #text1{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  color: #ef9790;
+  display: block;
+  text-decoration:none;
+}
+
+#circle_text_container_1:hover > #circle_text_1{
+  display: none;
 }
 
 /* Displays circles */
@@ -67,7 +86,7 @@ body{
   text-shadow: 2px 2px #FFD5D1;
 }
 
-/* TEXTAREA */
+/* Textarea */
 .textarea{
   padding-top: 10%;
   margin-bottom: 10%;

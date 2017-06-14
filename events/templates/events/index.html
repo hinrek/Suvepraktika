@@ -5,10 +5,11 @@
 
 <div class="flexible">
   <div class="col-sm-4">
-    <div class="circle_container_1">
+    <div class="circle_container_1" id="circle_container_1">
       <div class="circle_main_1">
-        <div class="circle_text_container_1">
-          <div class = "circle_text_1">
+        <div class="circle_text_container_1" id="circle_text_container_1">
+          <a class="text1" id="text1"> Kas tundub tuttav olukord, et pähe on tekkinud nii kena mõte, midagi põnevat korraldada aga ei oska või ei julge ise kõike seda ette võtta? MÕTE on selleks edaspidi parimaks abimeheks, sest koos kenade inimestega ärkab MÕTE ellu!</a>
+          <div class = "circle_text_1" id="circle_text_1">
             MÕTE
           </div>
         </div>
@@ -18,8 +19,8 @@
 
   <div class="col-sm-4">
     <div class="circle_container_2">
-      <a style="text-decoration:none;" href="{% url 'event_new' %}">
-        <div class="circle_main_2" href="{% url 'event_new' %}">
+      <a style="text-decoration:none;" href="{% url 'event_list' %}">
+        <div class="circle_main_2">
           <div class="circle_text_container_2">
             <div class = "circle_text_2">
               VAATA PROJEKTE
@@ -32,7 +33,7 @@
 
   <div class="col-sm-4">
     <div class="circle_container_3">
-      <a style="text-decoration:none;" href="{% url 'event_list' %}">
+      <a style="text-decoration:none;" href="{% url 'event_new' %}">
         <div class="circle_main_3">
           <div class="circle_text_container_3">
             <div class = "circle_text_3">
