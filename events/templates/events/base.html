@@ -53,12 +53,12 @@
 <body>
   <div class="page-header">
       {% if user.is_authenticated %}
-          <button class="btn button4"><small><a href="{% url 'event_new' %}">Loo projekt</a></small></button>
-         {% comment %} <button class="button5"><small><a href="{% url 'profile' %}">Profiil</a></small></button> {% endcomment %}
-          <button class="btn button3">{{ user.username }} <small><a href="{% url 'logout' %}">Logi välja</a></small></button>
+          <a class="btn button4" href="{% url 'event_new' %}">Loo projekt</a>
+         {% comment %} <a class="button5" href="{% url 'profile' %}">Profiil</a> {% endcomment %}
+          <a class="btn button3" href="{% url 'logout' %}">{{ user.username }} Logi välja</a>
       {% else %}
-         <button class="btn button6"><small><a href="{% url 'login' %}">Logi sisse</a></small></button>
-         <button class="btn button7"><small><a href="{% url 'registration_register' %}">Loo kasutaja</a></small></button>
+         <a class="btn button6" href="{% url 'login' %}">Logi sisse</a>
+         <a class="btn button7" href="{% url 'registration_register' %}">Loo kasutaja</a>
 
       {% endif %}
       <h1><a href="/">Elu - Mote</a></h1>
