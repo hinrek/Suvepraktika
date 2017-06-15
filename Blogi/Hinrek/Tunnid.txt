@@ -38,5 +38,13 @@
 	requirements.txt uuendused
 	Kasutajate paroolide uuendamine ja ununenud parooli värskendamine
 
-14-06-2017
-	
+14-06-2017 4h
+	Aitasin lehe html/css arendada
+	Litsentsi loomine
+	Uute migratsioonide testimine ja loomine
+	Readme värskendamine
+
+15-06-2017 2h
+	Suhtlemine õppejõuga
+	Suhtlemine meeskonnaga
+	Githubis harude (branch) liitmine
