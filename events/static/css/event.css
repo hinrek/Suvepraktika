@@ -116,11 +116,12 @@ h1, h2, h3, h4{
 
 .projects_title{
   font-family: 'Josefin Sans', sans-serif;
-  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: #ef9790;
   text-align: center;
   position: relative;
-  top: -50px;
+  top: -20px;
 }
 
 #id_title, #id_city, #id_location, #id_category, #id_event_date, #id_register_limit_date{
