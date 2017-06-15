@@ -1,0 +1,72 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <!-- JQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Font -->
+        <link href="//fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+
+        <!-- Static files -->
+        <link rel="stylesheet" href="{% static 'css/event.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+        <script type="text/javascript" >
+            $(document).ready(function(){
+                $("#id_username").attr('placeholder', 'Kasutajatunnus');
+                $("#id_password").attr('placeholder', 'Parool');
+                $("#id_password1").attr('placeholder', 'Parool');
+                $("#id_password2").attr('placeholder', 'Korda parooli');
+                $("#id_email").attr('placeholder', 'Meiliaadress');
+                $("#id_password").attr('placeholder', 'Parool');
+                $("#id_title").attr('placeholder', 'Projekti nimi');
+                $("#id_descripton").attr('placeholder', 'Projekti sisu');
+                $("#id_city").attr('placeholder', 'Linn');
+                $("#id_location").attr('placeholder', 'Asukoht');
+
+            });
+            $('#circle_container_2').click(function () {
+                window.location = '{% url 'event_list' %}';
+            });
+        </script>
+
+        <title>Elu - Mote</title>
+    </head>
+<body>
+  <div class="page-header">
+      {% if user.is_authenticated %}
+         {% comment %} <a class="button5" href="{% url 'profile' %}">Profiil</a> {% endcomment %}
+         <div class="button-box col-lg-12">
+          <a class="btn button3" href="{% url 'logout' %}">{{ user.username }} Logi välja</a>
+         </div>
+      {% else %}
+      <div class="button-box col-lg-12">
+         <a class="btn button6" href="{% url 'login' %}">Logi sisse</a>
+         <a class="btn button7" href="{% url 'registration_register' %}">Loo kasutaja</a>
+      </div>
+      {% endif %}
+      <h1><a href="/">Elu - Mote</a></h1>
+  </div>
+
+    <div class="content container">
+            {% block content %}
+            {% endblock %}
+    </div>
+</body>
+</html>

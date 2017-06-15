@@ -1,0 +1,50 @@
+{% extends 'events/base.html' %}
+{% block content %}
+    {% for event in events %}
+    <div class="row">
+      <div class="col-xs-2">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Asukoht
+          <span class="caret"></span></button>
+        </div>
+      </div>
+      <div class="col-xs-2 col-half-offset">
+        <div class="dropdown_2">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kategooria
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a></a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-xs-2 col-half-offset">
+      <form>
+      <input class="btn btn-default" type="date" name="date_begin" min="2017-01-01" placeholder="Algus">
+      </form>
+    </div>
+    <div class="col-xs-2 col-half-offset">
+      <form>
+      <input class="btn btn-default" type="date" name="date_end" max="2070-01-01" placeholder="Lõpp">
+      </form>
+    </div>
+    <div class="col-xs-2 col-half-offset">
+
+    <input class="search_btn" type="search" placeholder="Otsi"><br>
+    <button class="btn search" type="submit">Otsi</button>
+
+  </div>
+  </div>
+        <div class="event">
+            <h1><a href="{% url 'event_detail' pk=event.pk %}">{{ event.title }}</a></h1>
+            <div class="date">
+            <p>Toimumise aeg: {{ event.event_date }}</p>
+            <p>Loomise aeg: {{ event.created_date }}</p>
+            </div>
+            <p>Kirjeldus: {{ event.descripton|linebreaksbr }}</p>
+            <p>Asukoht: {{ event.city }}</p>
+            <p>Kategooria: {{ event.category }}</p>
+            <p>Registreerimise tähtaeg: {{ event.register_limit_date }}</p>
+            <a href="{% url 'event_detail' pk=event.pk %}">Comments: {{ event.comments.count }}</a>
+        </div>
+    {% endfor %}
+{% endblock %}

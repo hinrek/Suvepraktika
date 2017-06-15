@@ -1,0 +1,42 @@
+08-05-2017 4h
+    Node.js backend toimib
+    mysql DB kasutaja registreerimine töötab localhostis
+    andmed liiguvad üle json web tokeni
+    Readme failis seletused ja kuidas kasutada ja mida õppida
+    Kliendiga suhtlemine
+
+20-05-2017 8h
+	Django backend
+	Kliendiga suhtlus
+
+21-05-2017 8h
+	Django backend arendus
+	Ürituste loomine
+	Ürituste kustutamine
+	Ürituste muutmine
+	Kasutajate haldus
+
+08-06-2017 8h
+	Leht serveris http://hinrek.pythonanywhere.com
+	Kommentaaride lisamien nõuab aktiivset Kasutajat
+	Kommentaaride lisamisel kasutaja võetakse andmebaasist
+	Kuupäev ja kellaeg formaat
+
+09-06-2017 4h
+	Tööjaotus githubis issudena
+	Serveris lehe värskendamine
+	Üritusele kategooria valimine
+	Ürituste kategooriate loomine admin vaates
+
+12-06-2017 4h
+	Tööjaotus githubis issudena
+	requirements.txt kiireks moodulite paigaldamiseks ja juhised selleks readme.md failis
+	Aitasin Jüril ja Kärolil keskkonnad ja serverid tööle
+
+13-06-2017 4h
+	Tööjaotus
+	requirements.txt uuendused
+	Kasutajate paroolide uuendamine ja ununenud parooli värskendamine
+
+14-06-2017
+	

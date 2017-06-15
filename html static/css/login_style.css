@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-image: url("background_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  padding-top: 10%;
+  text-decoration-color: #F6CDE6;
+  text-align: center;
+  display: block;
+}
+
+font-family: 'Josefin Sans', sans-serif;
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin
+{
+    margin-bottom: 10px;
+}
+.form-signin
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #74787B;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #74787B;
+  position: relative;
+  width: 150px;
+  margin-left: 25%;
+
+}
+
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
