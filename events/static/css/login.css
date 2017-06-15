@@ -94,20 +94,18 @@
   border: 1px solid #74787B;
   position: relative;
   width: 150px;
-  margin-left: 25%;
   margin-bottom: 5%;
 }
 
 .button3{
   padding: 8px 10px;
   margin-bottom: 0;
-  left:25%;
+  margin-top: 0;
 }
 
 .button4{
   padding: 8px 10px;
   margin-bottom: 0;
-  left: 50%;
 }
 
 .button5{
@@ -116,14 +114,17 @@
 
 .button6{
   padding: 8px 10px;
-    margin-bottom: 0;
-  left: 50%;
+  margin-bottom: 0;
 }
 
 .button7{
   padding: 8px 10px;
   margin-bottom: 0;
-  left:25%;
+}
+
+.button-box {
+   text-align:right;
+   margin-top:20px;
 }
 
 .new-account{

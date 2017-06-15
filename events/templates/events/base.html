@@ -51,13 +51,15 @@
 <body>
   <div class="page-header">
       {% if user.is_authenticated %}
-          <a class="btn button4" href="{% url 'event_new' %}">Loo projekt</a>
          {% comment %} <a class="button5" href="{% url 'profile' %}">Profiil</a> {% endcomment %}
+         <div class="button-box col-lg-12">
           <a class="btn button3" href="{% url 'logout' %}">{{ user.username }} Logi välja</a>
+         </div>
       {% else %}
+      <div class="button-box col-lg-12">
          <a class="btn button6" href="{% url 'login' %}">Logi sisse</a>
          <a class="btn button7" href="{% url 'registration_register' %}">Loo kasutaja</a>
-
+      </div>
       {% endif %}
       <h1><a href="/">Elu - Mote</a></h1>
   </div>
