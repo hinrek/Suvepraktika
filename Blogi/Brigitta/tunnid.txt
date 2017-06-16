@@ -17,3 +17,7 @@ Tegin staatilised html lehed valmis. Tegin photoshopis uue pildi, mida kasutada 
 
 Tegin mõned kasutuslood valmis ning hakkasin dokumentatsiooni kirjutama. Tegin mingi põhja valmis.
 Homse jooksul tahaks kindla struktuuri paika panna ja rakendust testima hakata.
+
+16.06.2017
+
+Jagasin dokumentatsiooni osad sobivatele inimestele ära. Alustasin testidega.
