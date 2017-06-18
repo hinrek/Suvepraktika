@@ -12,6 +12,7 @@
                 {% csrf_token %}
                 {{ form.as_p }}
                 <input class="btn btn-sm" type="submit" value="Submit">
+                <input type = "hidden" name = "next" value = "{{ next|escape }}" />
             </form>
           </form>
       </div>
