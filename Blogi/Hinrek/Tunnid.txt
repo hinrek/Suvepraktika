@@ -48,3 +48,14 @@
 	Suhtlemine õppejõuga
 	Suhtlemine meeskonnaga
 	Githubis harude (branch) liitmine
+
+17-06-2017 4h
+	Django raamistiku õppimine
+
+18-06-2017 4h
+	Django raamistiku õppimine
+
+19-06-2017 8h
+	Kliendiga suhtlemine
+	Kasutajate registreerimise ankeedi parandamine
+	
