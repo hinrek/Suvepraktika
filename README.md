@@ -65,8 +65,8 @@ Hetkel arenduse faasis on meil endal hea lihtne kasutada db.sqlite3 baasi, mis s
 ## Projekti paigaldamine ja käivitamine
 
 - Veenduge et arvutisse on paigaldatud python3
-- Enne käivitamist peab tekitama virtuaalse python3 keskkonna, mida rakendus hakkab kasutama. Käsk mis loob vastava keskkonna unixis `python3 -m venv myvenv` ja windoosa all võiks see midagi sellist välja näha `C:\Python35\python -m venv myvenv` võib ka kasutada virtualenv ehk `pip install virtualenv` ja siis peale seda `virtualenv myvenv`. Sisuliselt ei pea kasutama virtuaalselt keskkonda aga seda vähem pudru pärast arvutis.
-- Peale keskkonna loomist peaks selle aktiveerima, et kõik mida paigaldame tehakse myvenv keskkonda. Erinevatel op süsteemidel käsk veits erinev jälle windoosas `myvenv\Scripts\activate` unix laadses `source myvenv/bin/activate`
+- Enne käivitamist peab tekitama virtuaalse python3 keskkonna, mida rakendus hakkab kasutama. Käsk mis loob vastava keskkonna Posix `python3 -m venv myvenv` ja windoosa all võiks see midagi sellist välja näha `C:\Python35\python -m venv myvenv` võib ka kasutada virtualenv ehk `pip install virtualenv` ja siis peale seda `virtualenv myvenv`. Sisuliselt ei pea kasutama virtuaalselt keskkonda aga seda vähem pudru pärast arvutis.
+- Peale keskkonna loomist peaks selle aktiveerima, et kõik mida paigaldame tehakse myvenv keskkonda. Erinevatel op süsteemidel käsk veits erinev jälle windoosas `myvenv\Scripts\activate` Posix laadses `source myvenv/bin/activate`
 - Uuendage pip `pip install --upgrade pip`
 - Paigaldame vajalikud moodulid `pip install -r requirements.txt`
 - Soovitav kontrollida andmete migreerimine `python manage.py makemigrations`
