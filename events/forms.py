@@ -11,6 +11,14 @@ class MapForm(forms.ModelForm):
 
 class EventForm(forms.ModelForm):
     """ Form to create new events """
+    title = forms.CharField(label='Projekti nimi')
+    #description = forms.CharField(widget=forms.Textarea, label='Projekti sisu')
+    #category = forms.ForeignKey(label='Kategooria')
+    #location = forms.PlainLocationField(label='Asukoht')
+    city = forms.CharField(label='Linn')
+    #event_date = forms.DateTimeField(widget=forms.widgets.DateInput(attrs={'type': 'datetime-local'}), label='Algus kuupäev ja kellaaeg')
+    #register_limit_date = forms.DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}), label='Lõppemis kuupäev')
+
     class Meta:
         """ Tell Django which model should be used to create this form  """
         model = Event
