@@ -44,7 +44,7 @@
             <p>Asukoht: {{ event.city }}</p>
             <p>Kategooria: {{ event.category }}</p>
             <p>Registreerimise tähtaeg: {{ event.register_limit_date }}</p>
-            <a href="{% url 'event_detail' pk=event.pk %}">Comments: {{ event.comments.count }}</a>
+            <a href="{% url 'event_detail' pk=event.pk %}">Kommentaarid: {{ event.comments.count }}</a>
         </div>
     {% endfor %}
 {% endblock %}
