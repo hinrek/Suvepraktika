@@ -120,6 +120,11 @@
   margin-bottom: 0;
 }
 
+.button8{
+  margin:auto;
+  display:block;
+  margin-bottom: 5%;
+}
 .button-box {
    text-align:right;
    margin-top:20px;
