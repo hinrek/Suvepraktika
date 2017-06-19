@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
 }
 
+/*
 .form-signin{
   display: block;
   width: 100%;
@@ -33,6 +34,7 @@
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+*/
 
 .form-signin .form-signin-heading, .form-signin{
     margin-bottom: 10px;
