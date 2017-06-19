@@ -89,6 +89,8 @@ body{
 /* Textarea */
 .textarea{
   padding-top: 10%;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-bottom: 10%;
   width: 100%;
 }
