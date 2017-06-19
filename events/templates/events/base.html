@@ -1,5 +1,5 @@
 {% load staticfiles %}
-<html>
+<html lang="en">
     <head>
         <!-- JQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -35,16 +35,13 @@
                 $("#id_password2").attr('placeholder', 'Korda parooli');
                 $("#id_email").attr('placeholder', 'Meiliaadress');
                 $("#id_password").attr('placeholder', 'Parool');
-                $("#id_title").attr('placeholder', 'Projekti nimi');
-                $("#id_descripton").attr('placeholder', 'Projekti sisu');
-                $("#id_city").attr('placeholder', 'Linn');
-                $("#id_location").attr('placeholder', 'Asukoht');
-
             });
             $('#circle_container_2').click(function () {
                 window.location = '{% url 'event_list' %}';
             });
         </script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <title>Elu - Mote</title>
     </head>

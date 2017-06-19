@@ -5,26 +5,23 @@ from django.utils import timezone
 from location_field.models.plain import PlainLocationField
 
 
-
 class Event(models.Model):
     """ Event class """
     author = models.ForeignKey('auth.User')
     members = models.TextField()
-    title = models.CharField(
-        max_length=200)
-    descripton = models.TextField()
-    city = models.CharField(max_length=255, default='Tallinn')
-    location = PlainLocationField(based_fields=['city'], zoom=150, default='59.43696079999999,24.75357459999998')
+    title = models.CharField(verbose_name="Projekti nimi", max_length=200)
+    descripton = models.TextField(verbose_name="Projekti sisu")
+    city = models.CharField(verbose_name="Linn",
+                            max_length=255, default='Tallinn')
+    location = PlainLocationField(verbose_name="Asukoht", based_fields=[
+        'city'], zoom=150, default='59.43696079999999,24.75357459999998')
     category = models.ForeignKey(
         'EventCategory', on_delete=models.PROTECT, default='Sport')
-    created_date = models.DateTimeField(
-        default=timezone.now)
+    created_date = models.DateTimeField(default=timezone.now)
     event_date = models.DateTimeField(
-        default=timezone.now,
-        blank=True, null=True)
+        verbose_name="Algus kuupäev ja kellaaeg", default=timezone.now, blank=True, null=True)
     register_limit_date = models.DateField(
-        default=timezone.now,
-        blank=True, null=True)
+        verbose_name="Lõppemis kuupäev", default=timezone.now, blank=True, null=True)
 
     def publish(self):
         """ Publishes event and sets created_date to timezone.now() """
@@ -51,6 +48,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.text
+
 
 class EventCategory(models.Model):
     """ Category field class for event categories """

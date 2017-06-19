@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'events',
     'registration',
-    'location_field.apps.DefaultConfig'
+    'location_field.apps.DefaultConfig',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 FORMAT_MODULE_PATH = [
     'mysite.formats',
 ]
+
+ACCOUNT_ACTIVATION_DAYS = 7
