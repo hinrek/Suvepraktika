@@ -157,3 +157,8 @@
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+
+.col-md-4, .col-sm-6{
+  padding-right: 30px;
+  padding-left: 30px;
+}
