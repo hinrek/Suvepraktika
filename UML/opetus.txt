@@ -1,0 +1,8 @@
+apt-get install python-pygraphviz
+
+brew install graphviz # For Mac users
+
+pip install django-extensions 
+# add 'django_extensions' to INSTALLED_APPS in settings.py
+python manage.py graph_models events -o test.png
+
