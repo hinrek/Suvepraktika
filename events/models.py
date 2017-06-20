@@ -10,7 +10,7 @@ class Event(models.Model):
     author = models.ForeignKey('auth.User')
     members = models.TextField()
     title = models.CharField(verbose_name="Projekti nimi", max_length=200)
-    descripton = models.TextField(verbose_name="Projekti sisu")
+    descripton = models.TextField(verbose_name="Kirjeldus")
     city = models.CharField(verbose_name="Linn",
                             max_length=255, default='Tallinn')
     location = PlainLocationField(verbose_name="Asukoht", based_fields=[
@@ -37,7 +37,7 @@ class Comment(models.Model):
     post = models.ForeignKey('events.Event', related_name='comments')
     # author = models.CharField(max_length=200)
     author = models.ForeignKey('auth.User')
-    text = models.TextField()
+    text = models.TextField(verbose_name="")
     created_date = models.DateTimeField(default=timezone.now)
     approved_comment = models.BooleanField(default=False)
 
