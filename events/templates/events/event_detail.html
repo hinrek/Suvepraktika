@@ -12,7 +12,7 @@
                           {{ event.event_date }}
                       </div>
                   {% endif %}
-                  {% if user.is_authenticated %}
+                  {% if event.author == request.user %}
                   <a class="btn btn-default" href="{% url 'event_edit' pk=event.pk %}"><span class="glyphicon glyphicon-pencil"></span> Muuda</a>
                   <a class="btn btn-default" href="{% url 'event_remove' pk=event.pk %}"><span class="glyphicon glyphicon-remove"></span> Kustuta</a>
                   {% endif %}
