@@ -62,4 +62,5 @@
 20-06-2017 8h
 	Dokumentatsiooni kirjutamine
 	Vigaste commitide eemaldamine Githubist
+	Meeskonnale preemia "Pizza" :)
 	
