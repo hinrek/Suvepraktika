@@ -10,7 +10,7 @@ class Event(models.Model):
     author = models.ForeignKey('auth.User')
     members = models.TextField()
     title = models.CharField(verbose_name="Projekti nimi", max_length=200)
-    descripton = models.TextField(verbose_name="Kirjeldus")
+    descripton = models.TextField(verbose_name="Projekti sisu")
     city = models.CharField(verbose_name="Linn",
                             max_length=255, default='Tallinn')
     location = PlainLocationField(verbose_name="Asukoht", based_fields=[
@@ -37,7 +37,7 @@ class Comment(models.Model):
     post = models.ForeignKey('events.Event', related_name='comments')
     # author = models.CharField(max_length=200)
     author = models.ForeignKey('auth.User')
-    text = models.TextField(verbose_name="")
+    text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     approved_comment = models.BooleanField(default=False)
 
@@ -56,9 +56,3 @@ class EventCategory(models.Model):
 
     def __str__(self):
         return self.category
-
-class EventSubscription(models.Model):
-    """ Allows subscribing to an event """
-    post = models.ForeignKey('events.Event', related_name='subscription')
-    user = models.ForeignKey('auth.User')
-    registered = models.BooleanField(default=False)
