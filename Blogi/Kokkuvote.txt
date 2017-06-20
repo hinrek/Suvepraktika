@@ -1,0 +1,44 @@
+I
+Meeskonna juht lisab blogisse kokkuvõtva analüüsi sellest, kuidas kogu protsess toimus, mis
+läks hästi, mis mitte nii hästi. Kuidas õnnestus tööde jaotamine. Mida teeks järgmisel korral teisiti. 
+Muuhulgas vasta analüüsis ka küsimustele:
+Millised olid kolm peamist tegevust või asjaolu, mis kõige enam mõjutasid meeskonna suutlikkust positiivses suunas? Kirjelda täpsemalt.
+Millised olid kolm peamist tegevust või asjaolu, mis kõige enam mõjutasid meeskonna suutlikkust negatiivses suunas? Kirjelda täpsemalt.
+
+II
+Seda punkti ei täida juht üksi, vaid koos kogu meeskonnaga.
+Lisa järgmise aasta üliõpilastele soovitused kogu kursuse üleelamiseks ja töö paremaks organiseerimiseks.
+Hinnang meeskonnaliikmete tööpanusele: protsentides väljendatud hinnang igale liikmele (hinnang tuleb ühiselt läbi arutada). Kui palju oli üliõpilasest kasu kogu projekti õnnestumisel? 
+    Või jäi midagi puudu? Hinnang anda järgnevast lähtudes: kogu tehtud töö on 100%, jaga see laiali meeskonna liikmete vahel. Nt kui 5-liikmelises meeskonnas kõigi panused on võrdsed, 
+    siis igaühele läheb kirja 20%. Aga Inga ei usu väga, et see kõigil alati võrdne on
+
+
+I)
+
+Esmalt saime kliendilt lühida kirjelduse emaili teel. Järgnevalt leppisime kokku kliendiga kohtumise aja. Kliengiga kohtumisel panime paika märksõnad, mida klient soovib veebirakendusse.
+Tööde jaotamine toimus loogiliselt, et kes on arenduse suunal said arendusega tegeleda ja vastavalt digimeedia suunal kujundusega. Alustasime sellest, et digimeedia suunal inimesed tegid
+staatiliselt vaated samal ajal, kui arenduses loodi mudelid andemete talletamiseks. Kui staatilised vaated olid valminud, loodi nende aluselt dünaamilised Django mallid. Töökorralduseks 
+kasutasime versioonihaldus keskkonda Github. Üldiselt õnnestus tööde jaotamine väga hästi ja kõik said aru mida tegema peavad. Järgmisel korral sooviksin rohkem kliendi tagasisidet ja 
+koostööd, sest selle projekti raames oli kliendi panus suhteliselt nulli lähedane.
+
+- Millised olid kolm peamist tegevust või asjaolu, mis kõige enam mõjutasid meeskonna suutlikkust positiivses suunas? Kirjelda täpsemalt.
+1. Kõik said teha seda, mis oli nende sooviks. Kes soovis arendada sai arendada ja kes soovis kujundusega tegeleda sai ka seda teha.
+2. Meeskonnas oli teiste liikmete suhtes mõistev suhtumine. Mis tähendab seda, et kui keegi ei saanud kohale tulla (viibis tööl või oli mingi muu mõjuv põhjus) siis sellesse suhtusime mõistvalt.
+3. Kui tekkisid küsimused või arusaamatused siis neid lahendasime koos. Kuna kujundus ja arendus käivad käsikäes siis oli mitmeid olukordi kus arendajad küsisid kujundajatelt nõu ja vastupidi.
+
+- Millised olid kolm peamist tegevust või asjaolu, mis kõige enam mõjutasid meeskonna suutlikkust negatiivses suunas? Kirjelda täpsemalt.
+1. Dokumentatsioon mille alusel projekti luua oli puudulik. Mis tähendab seda, et kliendilt saime umbkaudsed soovid.
+2. Kleindile oli teada, et mis kuupäevadel ja kellaaegadel viibime vastavas ruumis. Kuid ei näinud teda kordagi huvi tundmas projekti suhtes.
+3. Projektist lahkusid kaks liiget, mis tähendas seda, et meid jäi plaanitust vähemaks. See ei mõjutanud meid oluliselt, kui pidime vähemuses rohkem vaeva nägema.
+
+II)
+Soovitan valida projekti meeskonnaga koos, arutada liikmetega, et mis on nende võimed ja võimalused. Projekt võiks tunduda kõigile liikmetele huvitav, sest et kui töö ei ole huvitav siis
+kaob motivatsioon kiiresti. Ennem suveprakti projekti tegemist soovitame õppida aine teooriat, et olla kursis mõistetega. Projekti lõppfaasis on vaja esitada dokumentatsioon, mis suuresti 
+tuleneb aine teoreetilisest osast.
+
+Hinnang meeskonnaliikmete tööpanusele:
+Hinrek Saar - 22.5% Meeskonna juht, Back-end arenduse (Django, Python), Dokumentatsioon
+Kärol-Milaine Jürgenson - 22.5% Front-end arendus, Dünaamilised vaated (html, css, Django mallid), Dokumentatsioon
+Brigitta Kannel - 22.5% Kujundus, Staatilised vaated (html, css), Dokumentatsioon
+Jan Treiberg - 22.5% Back-end arendus (Django, Python), Dokumentatsioon
+Jüri Johannes Derkun - 10% ?

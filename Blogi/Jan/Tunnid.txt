@@ -7,3 +7,12 @@ Parooli vahetemine töötab
 12.06.17
 Tegelesin terve päev Google Mapsiga, mis näitab, kus üritused toimuvad
 Sain tööle!
+
+13.06-16.06
+Django raamistiku õppimine, dokumentatsiooni uurimine/kirjutamine
+
+19.06
+Kaardi readonly's muutmine
+
+20.06
+Mõned bug'i parandused, dokumentatsiooni kirjutamine.

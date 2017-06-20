@@ -35,6 +35,7 @@
                 $("#id_password2").attr('placeholder', 'Korda parooli');
                 $("#id_email").attr('placeholder', 'Meiliaadress');
                 $("#id_password").attr('placeholder', 'Parool');
+                $("#id_text").attr('placeholder', 'Kommentaar');
             });
             $('#circle_container_2').click(function () {
                 window.location = '{% url 'event_list' %}';
@@ -43,7 +44,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <title>Elu - Mote</title>
+        <title>Elu - Mõte</title>
     </head>
 <body>
   <div class="page-header">
@@ -58,7 +59,7 @@
          <a class="btn button7" href="{% url 'registration_register' %}">Loo kasutaja</a>
       </div>
       {% endif %}
-      <h1><a href="/">Elu - Mote</a></h1>
+      <h1><a href="/">Elu - Mõte</a></h1>
   </div>
 
     <div class="content container">
