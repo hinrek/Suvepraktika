@@ -20,5 +20,14 @@ Ettevõtliku inimesena tahan luua projekti, et kodukoha elu edendada.
 Veebirakenduse kasutaja soovib luua projekti. Selleks vajutab ta esilehel "Loo projekt" nupule/ringile.
 Kui kasutaja ei  ole sisse logitud, suunatakse ta sisselogimislehele. Kui ta on sisse logitud,
 suunatakse ta tagasi avalehele. Seejärel sisse logituna saab ta luua projekti. Ta sisestab projekti
-nime,  lühikirjelduse, projekti asukoha ja valdkonna, projekti alguse ja lõpukuupäeva. Seejärel
+nime,  kirjelduse, projekti asukoha ja valdkonna, projekti alguse ja lõpukuupäeva. Seejärel
 vajutades nuppu "Loo projekt" on projekt loodud ja ootab liitujaid.
+
+Kasutuslugu nr 3.
+
+Uudishimuliku kodanikuna tahan teada, mis üritused mu kodukohas toimuvad.
+
+Veebirakenduse külastaja saab avalehelt vajutada "Vaata projekte" nupule, millega ta suunatakse
+projektide vaatamise lehele. Seal saab ta vaadata projektide nime, kirjeldust, asukohta ja toimumisaega.
+Valides ühe projekti, mis teda huvitab, saab ta vaadata kaardilt täpset asukohta. Kui tekib soov
+projektiga liituda, on vajalik kasutaja sisselogimine.
