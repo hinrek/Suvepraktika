@@ -21,3 +21,19 @@ Homse jooksul tahaks kindla struktuuri paika panna ja rakendust testima hakata.
 16.06.2017
 
 Jagasin dokumentatsiooni osad sobivatele inimestele ära. Alustasin testidega.
+
+19.06.2017
+
+Tegin teste ja kirjutasin dokumentatsiooni.
+
+20.06.2017
+
+Tegin korraliku dokumentatsiooni valmis. Tänane oligi meil ainult selleks mõeldud.
+
+Kokkuvõte:
+
+Kokkuvõtteks võiks öelda, et jäin rahule oma ja meeskona tööga. Ei õppinud küll uusi
+programmeerimiskeeli, kuid sain arendada HTML ja CSS oskusi. Tekkis veel suurem huvi front-end
+arenduse vastu ja tahaks selliseid projekte tihedamini teha. Kõige olulisem sündmus oli ehk
+viimase päeva ühine pitsasöömine, sest see võttis kokku selle pika ja raske arendusprotsessi :)
+Seda toredat kogemust võiks isegi veel teha.
