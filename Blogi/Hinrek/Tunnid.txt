@@ -63,4 +63,4 @@
 	Dokumentatsiooni kirjutamine
 	Vigaste commitide eemaldamine Githubist
 	Meeskonnale preemia "Pizza" :)
-	
+	Kliengiga suhtlemin ja tagasiside saamine
