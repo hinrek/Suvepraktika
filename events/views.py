@@ -89,19 +89,3 @@ def add_comment_to_event(request, pk):
     else:
         form = CommentForm()
     return render(request, 'events/add_comment_to_event.html', {'form': form})
-
-@login_required
-def event_join(request, pk):
-    post = get_object_or_404(Event, pk=pk):
-    if request.method == "POST":
-        eventsubscription.user = request.user
-        eventsubscription.registered = bool(True)
-        eventsubscription.save()
-        return redirect('event_list', pk=pk)
-
-@login_required
-def event_unjoin(request, pk):
-    """ Renders remove subscription """
-    eventsubscription = get_object_or_404(Event, pk=pk)
-    # eventsubscription.delete()
-    return redirect('event_list')
