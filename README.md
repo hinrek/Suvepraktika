@@ -14,6 +14,10 @@
 - Administratiivne liides /admin
   - Ürituste, ürituse kategooriate ja kasutajate haldus
 
+## Veebirakenduse näide
+
+![Lehest gif](Pictures/J0Kh16lRC1.gif)
+
 ## Kasutatud tehnoloogiad
 
 - Python3
