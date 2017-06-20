@@ -12,11 +12,14 @@
                           {{ event.event_date }}
                       </div>
                   {% endif %}
-                  {% if event.author == request.user %}
+                  {% if user.is_authenticated %}
                   <a class="btn btn-default" href="{% url 'event_edit' pk=event.pk %}"><span class="glyphicon glyphicon-pencil"></span> Muuda</a>
                   <a class="btn btn-default" href="{% url 'event_remove' pk=event.pk %}"><span class="glyphicon glyphicon-remove"></span> Kustuta</a>
+                  <a class="btn btn-default" href="{% url 'event_join' pk=event.pk %}"><span class="glyphicon glyphicon-star"></span></a>
+                  <a class="btn btn-default" href="{% url 'event_unjoin' pk=event.pk %}"><span class="glyphicon glyphicon-star-empty"></span></a>
                   {% endif %}
                   <h1>{{ event.title }}</h1>
+                  <h2>{{ eventsubscription.user_id }}</h2>
                   <p>{{ event.descripton|linebreaksbr }}</p>
                   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
                       {{ form.media }}
