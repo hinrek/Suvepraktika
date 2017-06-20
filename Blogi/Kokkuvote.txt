@@ -32,4 +32,13 @@ koostööd, sest selle projekti raames oli kliendi panus suhteliselt nulli lähe
 3. Projektist lahkusid kaks liiget, mis tähendas seda, et meid jäi plaanitust vähemaks. See ei mõjutanud meid oluliselt, kui pidime vähemuses rohkem vaeva nägema.
 
 II)
-Soovitan valida projekti meeskonnaga koos, arutada liikmetega, et mis on nende 
+Soovitan valida projekti meeskonnaga koos, arutada liikmetega, et mis on nende võimed ja võimalused. Projekt võiks tunduda kõigile liikmetele huvitav, sest et kui töö ei ole huvitav siis
+kaob motivatsioon kiiresti. Ennem suveprakti projekti tegemist soovitame õppida aine teooriat, et olla kursis mõistetega. Projekti lõppfaasis on vaja esitada dokumentatsioon, mis suuresti 
+tuleneb aine teoreetilisest osast.
+
+Hinnang meeskonnaliikmete tööpanusele:
+Hinrek Saar - 22.5% Meeskonna juht, Back-end arenduse (Django, Python), Dokumentatsioon
+Kärol-Milaine Jürgenson - 22.5% Front-end arendus, Dünaamilised vaated (html, css, Django mallid), Dokumentatsioon
+Brigitta Kannel - 22.5% Kujundus, Staatilised vaated (html, css), Dokumentatsioon
+Jan Treiberg - 22.5% Back-end arendus (Django, Python), Dokumentatsioon
+Jüri Johannes Derkun - 10% ?
