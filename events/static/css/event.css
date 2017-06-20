@@ -187,7 +187,9 @@ only screen and (min-width: 571px),
   .centerBlock {
   display: table;
   margin: auto;
+  }
 }
+
 /*
 .helptext{
   visibility: hidden;
