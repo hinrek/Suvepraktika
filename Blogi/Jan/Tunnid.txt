@@ -12,7 +12,10 @@ Sain tööle!
 Django raamistiku õppimine, dokumentatsiooni uurimine/kirjutamine
 
 19.06
-Kaardi readonly's muutmine
+Kaardi readonly's muutmine, see tähendab, et suvaline kasutaja ei saaks muuta suvalise
+evendi andmeid - see kuuluks vaid evendi loojale
 
 20.06
-Mõned bug'i parandused, dokumentatsiooni kirjutamine.
+Mõned bug'i parandused, dokumentatsiooni kirjutamine ning täiustamine.
+
+

@@ -27,7 +27,7 @@ koostööd, sest selle projekti raames oli kliendi panus suhteliselt nulli lähe
 3. Kui tekkisid küsimused või arusaamatused siis neid lahendasime koos. Kuna kujundus ja arendus käivad käsikäes siis oli mitmeid olukordi kus arendajad küsisid kujundajatelt nõu ja vastupidi.
 
 - Millised olid kolm peamist tegevust või asjaolu, mis kõige enam mõjutasid meeskonna suutlikkust negatiivses suunas? Kirjelda täpsemalt.
-1. Dokumentatsioon mille alusel projekti luua oli puudulik. Mis tähendab seda, et kliendilt saime umbkaudsed soovid.
+1. Dokumentatsioon mille alusel projekti luua oli puudulik rakenduse loomiseks. Mis tähendab seda, et kliendilt saime idee.
 2. Kleindile oli teada, et mis kuupäevadel ja kellaaegadel viibime vastavas ruumis. Kuid ei näinud teda kordagi huvi tundmas projekti suhtes.
 3. Projektist lahkusid kaks liiget, mis tähendas seda, et meid jäi plaanitust vähemaks. See ei mõjutanud meid oluliselt, kui pidime vähemuses rohkem vaeva nägema.
 
