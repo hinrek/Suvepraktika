@@ -5,6 +5,7 @@
         <div class="event">
             <h1><a href="{% url 'event_detail' pk=event.pk %}">{{ event.title|linebreaksbr }}</a></h1>
             <div class="date">
+            <h2>Autor: {{ event.author }}</h2>
             <p>Toimumise aeg: {{ event.event_date }}</p>
             <p>Loomise aeg: {{ event.created_date }}</p>
             </div>
